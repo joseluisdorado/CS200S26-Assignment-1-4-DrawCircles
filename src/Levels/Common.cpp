@@ -34,7 +34,7 @@ bool ShowFrameworkMenu(MenuFn demoMenu)
 		RoundingMethods[Rasterizer::eRM_TRUNCATE] = "Truncate";
 		RoundingMethods[Rasterizer::eRM_TRUNCATE_SHIFT] = "Truncate Shift";
 
-		DrawCircleMethods[Rasterizer::eDL_NAIVE] = "Explicit Line Equation";
+		DrawCircleMethods[Rasterizer::eDL_NAIVE] = "Algebraic Circle Equation";
 		DrawCircleMethods[Rasterizer::eDC_PARAMETRIC] = "Parametric";
 		DrawCircleMethods[Rasterizer::eDC_MIDPOINT] = "MidPoint";
 		DrawCircleMethods[Rasterizer::eDC_BRESENHAM] = "Bresenham";
